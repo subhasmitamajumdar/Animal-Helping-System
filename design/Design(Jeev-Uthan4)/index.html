@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1 /DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>FlairBuilder HTML Export</title>
+	
+	<link rel="stylesheet" type="text/css" href="flairbuilder-htmlexport.min.css">
+	<link rel="stylesheet" type="text/css" href="custom-images.css">
+	
+	<script type="text/javascript" src="flairbuilder-htmlexport-lib.js"></script>
+	
+	<script type="text/javascript" src="flairbuilder-htmlexport.js"></script>
+	<script type="text/javascript" src="flairbuilder-components.js"></script>
+	
+    <script type="text/javascript" src="project-definition.js"></script>
+    
+<script type="text/javascript">	
+String.prototype.trim = function() {
+
+ // skip leading and trailing whitespace
+ // and return everything in between
+  var x=this;
+  x=x.replace(/^\s*(.*)/, "$1");
+  x=x.replace(/(.*?)\s*$/, "$1");
+  return x;
+};
+
+$(document).ready(function(){
+var project = new fb.FlairProject(FlairProjectDefinition);
+var viewer = new fb.FlairBuilderViewer($("#flairbuilder_html_viewer"));
+viewer.display(project);
+
+$(window).hashchange(function() {
+	pageid = $(location).attr("hash");
+	if (pageid.indexOf("#") == 0) {
+		pageid = pageid.substr(1);
+	}
+	project.selectPage(pageid);
+	$(window).scrollTop(0);
+});
+
+
+});
+</script>	
+	
+</head>
+<body>
+
+<div id="flairbuilder_html_viewer" class="FlairBuilderViewer">
+</div>
+
+</body>
+</html>

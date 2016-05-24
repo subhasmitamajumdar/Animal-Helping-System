@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Jeev-uthan design" version="3.0" id="mnhM56J679" font="Arial" defaultPage="#pg_757XD" type="default" theme="SimplicityGray">
+  <Page width="960" height="1000" enabled="true" visible="true" hidden="false" id="#pg_757XD" clasz="com.flairbuilder.project::Page" name="About" color="255" backgroundColor="16777215">
+    <behaviors>
+      <behavior action="flair:EnableDisableComponents" trigger="flair:pageOnLoad">
+        <action id="flair:EnableDisableComponents" targets="fbc9Ox67" type="hide"/>
+      </behavior>
+    </behaviors>
+    <Component width="961" height="1061" x="3" y="0" enabled="true" visible="true" hidden="false" id="fbcKFA2P" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="2" label=""/>
+    <Component width="11" height="64" x="432" y="4" enabled="true" visible="true" hidden="false" id="fbc2oApF" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="11" height="64" x="540" y="6" enabled="true" visible="true" hidden="false" id="fbcSvCXL" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="53" height="38" x="438" y="68" enabled="true" visible="true" hidden="false" id="fbcD6U6F" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="54" height="38" x="491" y="68" enabled="true" visible="true" hidden="false" id="fbck5U3A" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="rightLine" direction="-1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="48" height="19" x="468" y="39" enabled="true" visible="true" hidden="false" id="fbcJ8Il3" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" fontFamily="Times New Roman" textAlign="left" label="LOGO&#xD;"/>
+    <Component width="109" height="53" x="36" y="70" enabled="true" visible="true" hidden="false" id="fbc9Ox67" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="About" style="verticalButton" direction="vertical"/>
+    <Component width="416" height="11" x="546" y="29" enabled="true" visible="true" hidden="false" id="fbc0si46" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="436" height="11" x="3" y="30" enabled="true" visible="true" hidden="false" id="fbcxV3zJ" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="109" height="53" x="236" y="70" enabled="true" visible="true" hidden="false" id="fbc356MK" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="FAQ" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="139" height="53" x="586" y="70" enabled="true" visible="true" hidden="false" id="fbc3j33c" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Missing Pet" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="pgTR74N" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="139" height="53" x="784" y="70" enabled="true" visible="true" hidden="false" id="fbcxE8hS" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Contact us" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="pge2hL7" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="200" height="19" x="754" y="6" enabled="true" visible="true" hidden="false" id="fbc8y2m5" clasz="com.flairbuilder.components::BulletList" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="">
+      <data encoded="true">Feedback</data>
+    </Component>
+    <Component width="887" height="830" x="40" y="174" enabled="true" visible="true" hidden="false" id="fbcs73A4" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="887" height="206" x="40" y="174" enabled="true" visible="true" hidden="false" id="fbcj3Rvu" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="19" x="481" y="478" enabled="true" visible="true" hidden="true" containedBy="fbc8MLka" id="fbc5x138" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="1"/>
+    <Component width="100" height="19" x="473" y="473" enabled="true" visible="true" hidden="true" containedBy="fbc8MLka" id="fbck986m" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="3"/>
+    <Component width="343" height="85" x="312" y="230" enabled="true" visible="true" hidden="false" id="fbc2092R" clasz="com.flairbuilder.components::Title" bold="false" italic="false" underline="false" color="0" fontSize="72" leading="0" textAlign="left" label="A B O U T"/>
+    <Component width="300" height="116" x="312" y="419" enabled="true" visible="true" hidden="false" id="fbc0DMhS" clasz="com.flairbuilder.components::Text" bold="false" italic="false" underline="false" color="0" fontSize="14" leading="0" fontFamily="Times New Roman" textAlign="left" label="Our Goal is to provide help to any Injured animal through our users(who want to contribute ti this nobel cause).--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.&#xD;&#xD;">
+      <text>Our Goal is to provide help to any Injured animal through our users(who want to contribute ti this nobel cause).--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.</text>
+    </Component>
+    <Component width="887" height="15" x="40" y="545" enabled="true" visible="true" hidden="false" id="fbcSR610" clasz="com.flairbuilder.components::SplitterVertical" borderColor="0"/>
+    <Component width="887" height="10" x="40" y="680" enabled="true" visible="true" hidden="false" id="fbc3Ist6" clasz="com.flairbuilder.components::SplitterVertical" borderColor="0"/>
+    <Component width="63" height="58" x="72" y="588" enabled="true" visible="true" hidden="false" id="fbczBMI8" clasz="com.flairbuilder.components::Label" bold="true" italic="false" underline="false" color="0" fontSize="48" leading="0" fontFamily="Courier New" textAlign="left" label="WE"/>
+    <Component width="643" height="45" x="216" y="595" enabled="true" visible="true" hidden="false" id="fbc76M4S" clasz="com.flairbuilder.components::Label" bold="true" italic="false" underline="false" color="0" fontSize="36" leading="0" fontFamily="Courier New" textAlign="left" label="HELP     INJURED     ANIMAL"/>
+    <Component name="Unnamed" width="45" height="24" x="161" y="605" enabled="true" visible="true" hidden="false" id="fbc2VNe1" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="12" label="{flair:LeftFillTriangle}" style="horizontalButton" direction="horizontal">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="#pg_814tl" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="51" height="24" x="849" y="605" enabled="true" visible="true" hidden="false" id="fbc5yyhF" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="12" label=" {flair:RightFillTriangle}" style="horizontalButton" direction="horizontal">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="#pg_96603" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="241" height="42" x="371" y="707" enabled="true" visible="true" hidden="false" id="fbckPsNn" clasz="com.flairbuilder.components::Rectangle" bold="true" italic="false" underline="true" color="0" fontSize="32" leading="0" fontFamily="Times New Roman" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label="Our Services"/>
+    <Component width="175" height="37" x="691" y="782" enabled="true" visible="true" hidden="false" id="fbc0s657" clasz="com.flairbuilder.components::Rectangle" bold="true" italic="false" underline="true" color="0" fontSize="24" leading="0" fontFamily="Times New Roman" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label="About FAQ"/>
+    <Component width="221" height="37" x="381" y="782" enabled="true" visible="true" hidden="false" id="fbc93609" clasz="com.flairbuilder.components::Rectangle" bold="true" italic="false" underline="true" color="0" fontSize="24" leading="0" fontFamily="Times New Roman" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label="About Missing Pet"/>
+    <Component width="221" height="36" x="106" y="781" enabled="true" visible="true" hidden="false" id="fbc552v2" clasz="com.flairbuilder.components::Rectangle" bold="true" italic="false" underline="true" color="0" fontSize="24" leading="0" fontFamily="Times New Roman" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label="About Jeev-Uthan"/>
+    <Component width="221" height="49" x="106" y="864" enabled="true" visible="true" hidden="false" id="fbc7bp78" clasz="com.flairbuilder.components::Text" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="----------------------------------------------------------------------------------------------------------------------------.">
+      <text>----------------------------------------------------------------------------------------------------------------------------.</text>
+    </Component>
+    <Component width="221" height="49" x="381" y="864" enabled="true" visible="true" hidden="false" id="fbc1935f" clasz="com.flairbuilder.components::Text" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="----------------------------------------------------------------------------------------------------------------------------.">
+      <text>----------------------------------------------------------------------------------------------------------------------------.</text>
+    </Component>
+    <Component width="221" height="49" x="691" y="860" enabled="true" visible="true" hidden="false" id="fbc7DkA6" clasz="com.flairbuilder.components::Text" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="----------------------------------------------------------------------------------------------------------------------------.">
+      <text>----------------------------------------------------------------------------------------------------------------------------.</text>
+    </Component>
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="960" height="1000" enabled="true" visible="true" hidden="false" id="#pg_96603" clasz="com.flairbuilder.project::Page" name="About copy1" color="255" backgroundColor="16777215">
+    <behaviors>
+      <behavior action="flair:EnableDisableComponents" trigger="flair:pageOnLoad">
+        <action id="flair:EnableDisableComponents" targets="fbc8Tu7o" type="hide"/>
+      </behavior>
+    </behaviors>
+    <Component width="961" height="1061" x="3" y="0" enabled="true" visible="true" hidden="false" id="fbc67s57" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="2" label="">
+      <behaviors>
+        <behavior action="flair:EnableDisableComponents" trigger="flair:mouseClick">
+          <action id="flair:EnableDisableComponents" targets="fbc454Vs" type="show"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="11" height="64" x="432" y="4" enabled="true" visible="true" hidden="false" id="fbcpYc55" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="11" height="64" x="540" y="6" enabled="true" visible="true" hidden="false" id="fbcFIjDY" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="53" height="38" x="438" y="68" enabled="true" visible="true" hidden="false" id="fbcK5K78" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="54" height="38" x="491" y="68" enabled="true" visible="true" hidden="false" id="fbc6934v" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="rightLine" direction="-1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="48" height="19" x="468" y="39" enabled="true" visible="true" hidden="false" id="fbc59DKb" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" fontFamily="Times New Roman" textAlign="left" label="LOGO&#xD;"/>
+    <Component width="109" height="53" x="36" y="70" enabled="true" visible="true" hidden="false" id="fbc8Tu7o" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="About" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:EnableDisableComponents" trigger="flair:mouseClick">
+          <action id="flair:EnableDisableComponents" targets="fbc454Vs" type="hide"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="416" height="11" x="546" y="29" enabled="true" visible="true" hidden="false" id="fbc3HvMS" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="436" height="11" x="3" y="30" enabled="true" visible="true" hidden="false" id="fbc769Ne" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="109" height="53" x="236" y="70" enabled="true" visible="true" hidden="false" id="fbc5of29" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="FAQ" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:EnableDisableComponents" trigger="flair:mouseClick">
+          <action id="flair:EnableDisableComponents" targets="fbc454Vs" type="hide"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="139" height="53" x="586" y="70" enabled="true" visible="true" hidden="false" id="fbc9rno6" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Missing Pet" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:EnableDisableComponents" trigger="flair:mouseClick">
+          <action id="flair:EnableDisableComponents" targets="fbc454Vs" type="hide"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="139" height="53" x="784" y="70" enabled="true" visible="true" hidden="false" id="fbcD3um2" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Contact us" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:EnableDisableComponents" trigger="flair:mouseClick">
+          <action id="flair:EnableDisableComponents" targets="fbc454Vs" type="hide"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="200" height="19" x="754" y="6" enabled="true" visible="true" hidden="false" id="fbc634tA" clasz="com.flairbuilder.components::BulletList" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="">
+      <data encoded="true">Feedback</data>
+    </Component>
+    <Component width="887" height="830" x="40" y="195" enabled="true" visible="true" hidden="false" id="fbc041tS" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="887" height="206" x="40" y="180" enabled="true" visible="true" hidden="false" id="fbc8yedj" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="19" x="481" y="478" enabled="true" visible="true" hidden="true" containedBy="fbc8MLka" id="fbcbTbIl" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="1"/>
+    <Component width="100" height="19" x="473" y="473" enabled="true" visible="true" hidden="true" containedBy="fbc8MLka" id="fbctpk96" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="3"/>
+    <Component width="343" height="85" x="312" y="230" enabled="true" visible="true" hidden="false" id="fbcj62j2" clasz="com.flairbuilder.components::Title" bold="false" italic="false" underline="false" color="0" fontSize="72" leading="0" textAlign="left" label="A B O U T"/>
+    <Component width="300" height="116" x="312" y="419" enabled="true" visible="true" hidden="false" id="fbcf695D" clasz="com.flairbuilder.components::Text" bold="false" italic="false" underline="false" color="0" fontSize="14" leading="0" fontFamily="Times New Roman" textAlign="left" label="Our Goal is to provide help to any Injured animal through our users(who want to contribute ti this nobel cause).--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.&#xD;&#xD;">
+      <text>Our Goal is to provide help to any Injured animal through our users(who want to contribute ti this nobel cause).--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.</text>
+    </Component>
+    <Component width="887" height="14" x="40" y="549" enabled="true" visible="true" hidden="false" id="fbc4R1O2" clasz="com.flairbuilder.components::SplitterVertical" borderColor="0"/>
+    <Component width="887" height="10" x="40" y="680" enabled="true" visible="true" hidden="false" id="fbc289yZ" clasz="com.flairbuilder.components::SplitterVertical" borderColor="0"/>
+    <Component width="63" height="58" x="72" y="588" enabled="true" visible="true" hidden="false" id="fbc1bx8U" clasz="com.flairbuilder.components::Label" bold="true" italic="false" underline="false" color="0" fontSize="48" leading="0" fontFamily="Courier New" textAlign="left" label="WE"/>
+    <Component width="657" height="45" x="216" y="595" enabled="true" visible="true" hidden="false" id="fbce13l5" clasz="com.flairbuilder.components::Label" bold="true" italic="false" underline="false" color="0" fontSize="36" leading="0" fontFamily="Courier New" textAlign="left" label="PROVIDE     NGO   INFORMATION"/>
+    <Component name="Unnamed" width="45" height="24" x="161" y="605" enabled="true" visible="true" hidden="false" id="fbcK657m" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="12" label="{flair:LeftFillTriangle}" style="horizontalButton" direction="horizontal">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="#pg_757XD" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="51" height="24" x="869" y="605" enabled="true" visible="true" hidden="false" id="fbcV33X3" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="12" label=" {flair:RightFillTriangle}" style="horizontalButton" direction="horizontal">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="#pg_814tl" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="241" height="42" x="337" y="715" enabled="true" visible="true" hidden="false" id="fbckv265" clasz="com.flairbuilder.components::Rectangle" bold="true" italic="false" underline="true" color="0" fontSize="32" leading="0" fontFamily="Times New Roman" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label="Our Services"/>
+    <Component width="175" height="37" x="657" y="790" enabled="true" visible="true" hidden="false" id="fbc5pdF5" clasz="com.flairbuilder.components::Rectangle" bold="true" italic="false" underline="true" color="0" fontSize="24" leading="0" fontFamily="Times New Roman" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label="About FAQ"/>
+    <Component width="221" height="37" x="347" y="790" enabled="true" visible="true" hidden="false" id="fbcVv68p" clasz="com.flairbuilder.components::Rectangle" bold="true" italic="false" underline="true" color="0" fontSize="24" leading="0" fontFamily="Times New Roman" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label="About Missing Pet"/>
+    <Component width="221" height="36" x="72" y="789" enabled="true" visible="true" hidden="false" id="fbcP828p" clasz="com.flairbuilder.components::Rectangle" bold="true" italic="false" underline="true" color="0" fontSize="24" leading="0" fontFamily="Times New Roman" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label="About Jeev-Uthan"/>
+    <Component width="221" height="49" x="72" y="872" enabled="true" visible="true" hidden="false" id="fbcZ621R" clasz="com.flairbuilder.components::Text" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="----------------------------------------------------------------------------------------------------------------------------.">
+      <text>----------------------------------------------------------------------------------------------------------------------------.</text>
+    </Component>
+    <Component width="221" height="49" x="347" y="872" enabled="true" visible="true" hidden="false" id="fbct22Pb" clasz="com.flairbuilder.components::Text" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="----------------------------------------------------------------------------------------------------------------------------.">
+      <text>----------------------------------------------------------------------------------------------------------------------------.</text>
+    </Component>
+    <Component width="221" height="49" x="657" y="868" enabled="true" visible="true" hidden="false" id="fbcuUv7A" clasz="com.flairbuilder.components::Text" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="----------------------------------------------------------------------------------------------------------------------------.">
+      <text>----------------------------------------------------------------------------------------------------------------------------.</text>
+    </Component>
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="960" height="1000" enabled="true" visible="true" hidden="false" id="#pg_814tl" clasz="com.flairbuilder.project::Page" name="About copy0" color="255" backgroundColor="16777215">
+    <behaviors>
+      <behavior action="flair:EnableDisableComponents" trigger="flair:pageOnLoad">
+        <action id="flair:EnableDisableComponents" targets="fbck3Ao2" type="hide"/>
+      </behavior>
+    </behaviors>
+    <Component width="961" height="1061" x="3" y="0" enabled="true" visible="true" hidden="false" id="fbcx17LJ" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="2" label="">
+      <behaviors>
+        <behavior action="flair:EnableDisableComponents" trigger="flair:mouseClick">
+          <action id="flair:EnableDisableComponents" targets="fbc454Vs" type="show"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="11" height="64" x="432" y="4" enabled="true" visible="true" hidden="false" id="fbck2822" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="11" height="64" x="540" y="6" enabled="true" visible="true" hidden="false" id="fbc3oJ9d" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="53" height="38" x="438" y="68" enabled="true" visible="true" hidden="false" id="fbcZb3ee" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="54" height="38" x="491" y="68" enabled="true" visible="true" hidden="false" id="fbc88SO7" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="rightLine" direction="-1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="48" height="19" x="468" y="39" enabled="true" visible="true" hidden="false" id="fbcY75d8" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" fontFamily="Times New Roman" textAlign="left" label="LOGO&#xD;"/>
+    <Component width="109" height="53" x="36" y="70" enabled="true" visible="true" hidden="false" id="fbck3Ao2" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="About" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:EnableDisableComponents" trigger="flair:mouseClick">
+          <action id="flair:EnableDisableComponents" targets="fbc454Vs" type="hide"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="416" height="11" x="546" y="29" enabled="true" visible="true" hidden="false" id="fbcI28NZ" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="436" height="11" x="3" y="30" enabled="true" visible="true" hidden="false" id="fbc9Z7Z5" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="109" height="53" x="236" y="70" enabled="true" visible="true" hidden="false" id="fbc2AE75" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="FAQ" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:EnableDisableComponents" trigger="flair:mouseClick">
+          <action id="flair:EnableDisableComponents" targets="fbc454Vs" type="hide"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="139" height="53" x="586" y="70" enabled="true" visible="true" hidden="false" id="fbcH4Ox6" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Missing Pet" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:EnableDisableComponents" trigger="flair:mouseClick">
+          <action id="flair:EnableDisableComponents" targets="fbc454Vs" type="hide"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="139" height="53" x="784" y="70" enabled="true" visible="true" hidden="false" id="fbcKrkTe" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Contact us" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:EnableDisableComponents" trigger="flair:mouseClick">
+          <action id="flair:EnableDisableComponents" targets="fbc454Vs" type="hide"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="200" height="19" x="754" y="6" enabled="true" visible="true" hidden="false" id="fbc6V81v" clasz="com.flairbuilder.components::BulletList" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="">
+      <data encoded="true">Feedback</data>
+    </Component>
+    <Component width="887" height="830" x="33" y="174" enabled="true" visible="true" hidden="false" id="fbcl78l4" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="887" height="206" x="33" y="174" enabled="true" visible="true" hidden="false" id="fbc22S8k" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="19" x="481" y="478" enabled="true" visible="true" hidden="true" containedBy="fbc8MLka" id="fbcz9617" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="1"/>
+    <Component width="100" height="19" x="473" y="473" enabled="true" visible="true" hidden="true" containedBy="fbc8MLka" id="fbc5860E" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="3"/>
+    <Component width="343" height="85" x="312" y="230" enabled="true" visible="true" hidden="false" id="fbc25V3c" clasz="com.flairbuilder.components::Title" bold="false" italic="false" underline="false" color="0" fontSize="72" leading="0" textAlign="left" label="A B O U T"/>
+    <Component width="300" height="116" x="312" y="419" enabled="true" visible="true" hidden="false" id="fbcms340" clasz="com.flairbuilder.components::Text" bold="false" italic="false" underline="false" color="0" fontSize="14" leading="0" fontFamily="Times New Roman" textAlign="left" label="Our Goal is to provide help to any Injured animal through our users(who want to contribute ti this nobel cause).--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.&#xD;&#xD;">
+      <text>Our Goal is to provide help to any Injured animal through our users(who want to contribute ti this nobel cause).--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.</text>
+    </Component>
+    <Component width="887" height="12" x="33" y="545" enabled="true" visible="true" hidden="false" id="fbcJcp93" clasz="com.flairbuilder.components::SplitterVertical" borderColor="0"/>
+    <Component width="887" height="10" x="33" y="681" enabled="true" visible="true" hidden="false" id="fbcjflLA" clasz="com.flairbuilder.components::SplitterVertical" borderColor="0"/>
+    <Component width="63" height="58" x="72" y="588" enabled="true" visible="true" hidden="false" id="fbcd18EK" clasz="com.flairbuilder.components::Label" bold="true" italic="false" underline="false" color="0" fontSize="48" leading="0" fontFamily="Courier New" textAlign="left" label="WE"/>
+    <Component width="643" height="45" x="216" y="595" enabled="true" visible="true" hidden="false" id="fbcEJ5A9" clasz="com.flairbuilder.components::Label" bold="true" italic="false" underline="false" color="0" fontSize="36" leading="0" fontFamily="Courier New" textAlign="left" label="GIVE     VETS     INFORMATION"/>
+    <Component name="Unnamed" width="45" height="24" x="161" y="605" enabled="true" visible="true" hidden="false" id="fbclzI98" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="12" label="{flair:LeftFillTriangle}" style="horizontalButton" direction="horizontal">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="#pg_96603" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="51" height="24" x="863" y="605" enabled="true" visible="true" hidden="false" id="fbcI36pc" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="12" label=" {flair:RightFillTriangle}" style="horizontalButton" direction="horizontal">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="#pg_757XD" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="241" height="42" x="337" y="715" enabled="true" visible="true" hidden="false" id="fbc76VFF" clasz="com.flairbuilder.components::Rectangle" bold="true" italic="false" underline="true" color="0" fontSize="32" leading="0" fontFamily="Times New Roman" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label="Our Services"/>
+    <Component width="175" height="37" x="657" y="790" enabled="true" visible="true" hidden="false" id="fbcO2x3B" clasz="com.flairbuilder.components::Rectangle" bold="true" italic="false" underline="true" color="0" fontSize="24" leading="0" fontFamily="Times New Roman" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label="About FAQ"/>
+    <Component width="221" height="37" x="347" y="790" enabled="true" visible="true" hidden="false" id="fbc23IFV" clasz="com.flairbuilder.components::Rectangle" bold="true" italic="false" underline="true" color="0" fontSize="24" leading="0" fontFamily="Times New Roman" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label="About Missing Pet"/>
+    <Component width="221" height="36" x="72" y="789" enabled="true" visible="true" hidden="false" id="fbc3O695" clasz="com.flairbuilder.components::Rectangle" bold="true" italic="false" underline="true" color="0" fontSize="24" leading="0" fontFamily="Times New Roman" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label="About Jeev-Uthan"/>
+    <Component width="221" height="49" x="72" y="872" enabled="true" visible="true" hidden="false" id="fbcyc4s5" clasz="com.flairbuilder.components::Text" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="----------------------------------------------------------------------------------------------------------------------------.">
+      <text>----------------------------------------------------------------------------------------------------------------------------.</text>
+    </Component>
+    <Component width="221" height="49" x="347" y="872" enabled="true" visible="true" hidden="false" id="fbcxAB2z" clasz="com.flairbuilder.components::Text" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="----------------------------------------------------------------------------------------------------------------------------.">
+      <text>----------------------------------------------------------------------------------------------------------------------------.</text>
+    </Component>
+    <Component width="221" height="49" x="657" y="868" enabled="true" visible="true" hidden="false" id="fbcN71mZ" clasz="com.flairbuilder.components::Text" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="----------------------------------------------------------------------------------------------------------------------------.">
+      <text>----------------------------------------------------------------------------------------------------------------------------.</text>
+    </Component>
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="960" height="1000" enabled="true" visible="true" hidden="false" id="pgTR74N" clasz="com.flairbuilder.project::Page" name="Missing pet" color="255" backgroundColor="16777215">
+    <behaviors>
+      <behavior action="flair:EnableDisableComponents" trigger="flair:pageOnLoad">
+        <action id="flair:EnableDisableComponents" targets="fbc31Yt2" type="hide"/>
+      </behavior>
+      <behavior action="flair:EnableDisableComponents" trigger="flair:pageOnLoad">
+        <action id="flair:EnableDisableComponents" targets="fbcY1Xh2" type="hide"/>
+      </behavior>
+    </behaviors>
+    <Component width="961" height="1061" x="3" y="-1" enabled="true" visible="true" hidden="false" id="fbclH4zU" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="2" label=""/>
+    <Component width="11" height="64" x="432" y="4" enabled="true" visible="true" hidden="false" id="fbcp7ubo" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="11" height="64" x="540" y="6" enabled="true" visible="true" hidden="false" id="fbcSOoz2" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="53" height="38" x="438" y="68" enabled="true" visible="true" hidden="false" id="fbc14le6" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="54" height="38" x="491" y="68" enabled="true" visible="true" hidden="false" id="fbcXBOFb" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="rightLine" direction="-1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="48" height="19" x="468" y="39" enabled="true" visible="true" hidden="false" id="fbc6969t" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" fontFamily="Times New Roman" textAlign="left" label="LOGO&#xD;"/>
+    <Component width="109" height="53" x="36" y="70" enabled="true" visible="true" hidden="false" id="fbcffb5J" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="About" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="#pg_757XD" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="436" height="11" x="3" y="30" enabled="true" visible="true" hidden="false" id="fbc1iE83" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="109" height="53" x="236" y="70" enabled="true" visible="true" hidden="false" id="fbc70a6i" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="FAQ" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="139" height="53" x="586" y="70" enabled="true" visible="true" hidden="false" id="fbc31Yt2" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Missing Pet" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:EnableDisableComponents" trigger="flair:mouseClick">
+          <action id="flair:EnableDisableComponents" targets="fbc454Vs" type="hide"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="139" height="53" x="784" y="70" enabled="true" visible="true" hidden="false" id="fbc8231F" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Contact us" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="pge2hL7" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="200" height="19" x="754" y="10" enabled="true" visible="true" hidden="false" id="fbcVh86j" clasz="com.flairbuilder.components::BulletList" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="">
+      <data encoded="true">Feedback</data>
+    </Component>
+    <Component width="887" height="837" x="40" y="155" enabled="true" visible="true" hidden="false" id="fbcp75K6" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="887" height="206" x="40" y="155" enabled="true" visible="true" hidden="false" id="fbc943Bc" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="673" height="85" x="147" y="222" enabled="true" visible="true" hidden="false" id="fbcB0586" clasz="com.flairbuilder.components::Title" bold="false" italic="false" underline="false" color="0" fontSize="72" leading="0" textAlign="left" label="M I S S I N G - P E T"/>
+    <Component width="887" height="10" x="40" y="680" enabled="true" visible="true" hidden="false" id="fbcs14hB" clasz="com.flairbuilder.components::SplitterVertical" borderColor="0"/>
+    <Component name="Unnamed" width="45" height="24" x="51" y="518" enabled="true" visible="true" hidden="false" id="fbcY1Xh2" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="12" label="{flair:LeftFillTriangle}" style="horizontalButton" direction="horizontal">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="#pg_814tl" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="51" height="24" x="866" y="518" enabled="true" visible="true" hidden="false" id="fbcUj75C" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="12" label=" {flair:RightFillTriangle}" style="horizontalButton" direction="horizontal">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="#pg_y78m0" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="417" height="11" x="547" y="33" enabled="true" visible="true" hidden="false" id="fbc6uE9o" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="186" height="154" x="122" y="474" enabled="true" visible="true" hidden="false" id="fbcpy05E" clasz="com.flairbuilder.components::Image" borderColor="0" borderThickness="1"/>
+    <Component width="200" height="16" x="122" y="388" enabled="true" visible="true" hidden="false" id="fbc2p58F" clasz="com.flairbuilder.components::Title" bold="true" italic="false" underline="false" color="0" fontSize="32" leading="0" fontFamily="Times New Roman" textAlign="left" label=""/>
+    <Component width="103" height="40" x="128" y="387" enabled="true" visible="true" hidden="false" id="fbc4v958" clasz="com.flairbuilder.components::Title" bold="false" italic="false" underline="false" color="0" fontSize="32" leading="0" textAlign="left" label="Pet 1"/>
+    <Component width="186" height="31" x="122" y="437" enabled="true" visible="true" hidden="false" id="fbcb16h0" clasz="com.flairbuilder.components::SubTitle" bold="false" italic="false" underline="false" color="0" fontSize="24" leading="0" textAlign="left" label="Photo:"/>
+    <Component width="224" height="31" x="355" y="437" enabled="true" visible="true" hidden="false" id="fbc6z74O" clasz="com.flairbuilder.components::SubTitle" bold="false" italic="false" underline="false" color="0" fontSize="24" leading="0" textAlign="left" label="Contact Person info:"/>
+    <Component width="200" height="31" x="637" y="433" enabled="true" visible="true" hidden="false" id="fbcKj38K" clasz="com.flairbuilder.components::SubTitle" bold="false" italic="false" underline="false" color="0" fontSize="24" leading="0" textAlign="left" label="Pet Info:"/>
+    <Component width="219" height="168" x="358" y="477" enabled="true" visible="true" hidden="false" id="fbcI6aUx" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Name:      -----------.&#xD;&#xD;Contact no:-----------&#xD;&#xD;Address:   -----------&#xD;&#xD;Email id:  -----------"/>
+    <Component width="219" height="120" x="637" y="477" enabled="true" visible="true" hidden="false" id="fbc5j552" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Name:      -----------.&#xD;&#xD;Breed:     -----------&#xD;&#xD;Height:    -----------&#xD;"/>
+    <Component width="277" height="40" x="110" y="704" enabled="true" visible="true" hidden="false" id="fbcD7aOF" clasz="com.flairbuilder.components::Title" bold="true" italic="false" underline="false" color="0" fontSize="32" leading="0" fontFamily="Times New Roman" textAlign="left" label="My pet is missing"/>
+    <Component width="200" height="31" x="113" y="755" enabled="true" visible="true" hidden="false" id="fbcjC34n" clasz="com.flairbuilder.components::SubTitle" bold="false" italic="false" underline="false" color="0" fontSize="24" leading="0" textAlign="left" label="Pet information:"/>
+    <Component width="302" height="31" x="547" y="755" enabled="true" visible="true" hidden="false" id="fbc73LD7" clasz="com.flairbuilder.components::SubTitle" bold="false" italic="false" underline="false" color="0" fontSize="24" leading="0" textAlign="left" label="Contact person information:"/>
+    <Component width="100" height="24" x="118" y="806" enabled="true" visible="true" hidden="false" id="fbc9V9P9" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Name :"/>
+    <Component width="100" height="24" x="118" y="845" enabled="true" visible="true" hidden="false" id="fbcF96ek" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Breed :"/>
+    <Component width="100" height="24" x="118" y="890" enabled="true" visible="true" hidden="false" id="fbc48j3N" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Height :"/>
+    <Component width="100" height="24" x="216" y="810" enabled="true" visible="true" hidden="false" id="fbc18aNr" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="216" y="890" enabled="true" visible="true" hidden="false" id="fbcX7BS4" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="216" y="849" enabled="true" visible="true" hidden="false" id="fbc5S678" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="547" y="810" enabled="true" visible="true" hidden="false" id="fbcUNk49" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Name :"/>
+    <Component width="100" height="24" x="545" y="850" enabled="true" visible="true" hidden="false" id="fbc81zo5" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Contact No:"/>
+    <Component width="100" height="24" x="545" y="883" enabled="true" visible="true" hidden="false" id="fbc1KX40" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Address :"/>
+    <Component width="100" height="24" x="545" y="924" enabled="true" visible="true" hidden="false" id="fbc320JM" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Email :"/>
+    <Component width="100" height="24" x="668" y="810" enabled="true" visible="true" hidden="false" id="fbcSn28k" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="668" y="849" enabled="true" visible="true" hidden="false" id="fbc59ON5" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="668" y="890" enabled="true" visible="true" hidden="false" id="fbc03226" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="668" y="929" enabled="true" visible="true" hidden="false" id="fbcmvLOI" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="58" x="216" y="924" enabled="true" visible="true" hidden="false" id="fbc905Fm" clasz="com.flairbuilder.components::Image" borderColor="0" borderThickness="1"/>
+    <Component width="100" height="24" x="118" y="941" enabled="true" visible="true" hidden="false" id="fbc48627" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Photo :"/>
+    <Component width="68" height="24" x="326" y="937" enabled="true" visible="true" hidden="false" id="fbc2875h" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Upload" style="horizontalButton" direction="horizontal"/>
+    <Component width="68" height="34" x="437" y="958" enabled="true" visible="true" hidden="false" id="fbc2i53n" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="18" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="POST" style="horizontalButton" direction="horizontal"/>
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="960" height="1000" enabled="true" visible="true" hidden="false" id="#pg_y78m0" clasz="com.flairbuilder.project::Page" name="Missing pet 1" color="255" backgroundColor="16777215">
+    <Component width="961" height="1061" x="3" y="-1" enabled="true" visible="true" hidden="false" id="fbc2X1BC" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="2" label=""/>
+    <Component width="11" height="64" x="432" y="4" enabled="true" visible="true" hidden="false" id="fbc2k8rd" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="11" height="64" x="540" y="6" enabled="true" visible="true" hidden="false" id="fbcuAV22" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="53" height="38" x="438" y="68" enabled="true" visible="true" hidden="false" id="fbcp552x" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="54" height="38" x="491" y="68" enabled="true" visible="true" hidden="false" id="fbcTP536" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="rightLine" direction="-1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="48" height="19" x="468" y="39" enabled="true" visible="true" hidden="false" id="fbc31l3O" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" fontFamily="Times New Roman" textAlign="left" label="LOGO&#xD;"/>
+    <Component width="109" height="53" x="36" y="70" enabled="true" visible="true" hidden="false" id="fbc5YSH1" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="About" style="verticalButton" direction="vertical"/>
+    <Component width="436" height="11" x="3" y="30" enabled="true" visible="true" hidden="false" id="fbc79Il2" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="109" height="53" x="236" y="70" enabled="true" visible="true" hidden="false" id="fbc99c5R" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="FAQ" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="139" height="53" x="586" y="70" enabled="true" visible="true" hidden="false" id="fbcS9KNp" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Missing Pet" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:EnableDisableComponents" trigger="flair:mouseClick">
+          <action id="flair:EnableDisableComponents" targets="fbc454Vs" type="hide"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="139" height="53" x="784" y="70" enabled="true" visible="true" hidden="false" id="fbch8V5H" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Contact us" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:EnableDisableComponents" trigger="flair:mouseClick">
+          <action id="flair:EnableDisableComponents" targets="fbc454Vs" type="hide"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="200" height="19" x="754" y="10" enabled="true" visible="true" hidden="false" id="fbc92071" clasz="com.flairbuilder.components::BulletList" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="">
+      <data encoded="true">Feedback</data>
+    </Component>
+    <Component width="887" height="830" x="40" y="164" enabled="true" visible="true" hidden="false" id="fbc73hs0" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="887" height="206" x="40" y="164" enabled="true" visible="true" hidden="false" id="fbc99e4P" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="673" height="85" x="147" y="222" enabled="true" visible="true" hidden="false" id="fbc8O5pd" clasz="com.flairbuilder.components::Title" bold="false" italic="false" underline="false" color="0" fontSize="72" leading="0" textAlign="left" label="M I S S I N G - P E T"/>
+    <Component width="887" height="10" x="40" y="680" enabled="true" visible="true" hidden="false" id="fbc8b9tI" clasz="com.flairbuilder.components::SplitterVertical" borderColor="0"/>
+    <Component name="Unnamed" width="45" height="24" x="51" y="518" enabled="true" visible="true" hidden="false" id="fbcvYr3z" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="12" label="{flair:LeftFillTriangle}" style="horizontalButton" direction="horizontal">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="pgTR74N" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="51" height="24" x="866" y="518" enabled="true" visible="true" hidden="false" id="fbcA4t16" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="12" label=" {flair:RightFillTriangle}" style="horizontalButton" direction="horizontal">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="#pg_1X5V9" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="417" height="11" x="547" y="33" enabled="true" visible="true" hidden="false" id="fbcT50FS" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="186" height="154" x="122" y="474" enabled="true" visible="true" hidden="false" id="fbc57302" clasz="com.flairbuilder.components::Image" borderColor="0" borderThickness="1"/>
+    <Component width="200" height="19" x="122" y="388" enabled="true" visible="true" hidden="false" id="fbcf7r79" clasz="com.flairbuilder.components::Title" bold="true" italic="false" underline="false" color="0" fontSize="32" leading="0" fontFamily="Times New Roman" textAlign="left" label=""/>
+    <Component width="103" height="40" x="128" y="387" enabled="true" visible="true" hidden="false" id="fbc9sO39" clasz="com.flairbuilder.components::Title" bold="false" italic="false" underline="false" color="0" fontSize="32" leading="0" textAlign="left" label="Pet 2"/>
+    <Component width="186" height="31" x="122" y="437" enabled="true" visible="true" hidden="false" id="fbco2287" clasz="com.flairbuilder.components::SubTitle" bold="false" italic="false" underline="false" color="0" fontSize="24" leading="0" textAlign="left" label="Photo:"/>
+    <Component width="224" height="31" x="355" y="437" enabled="true" visible="true" hidden="false" id="fbc23CfP" clasz="com.flairbuilder.components::SubTitle" bold="false" italic="false" underline="false" color="0" fontSize="24" leading="0" textAlign="left" label="Contact Person info:"/>
+    <Component width="200" height="31" x="637" y="433" enabled="true" visible="true" hidden="false" id="fbc1sbZ5" clasz="com.flairbuilder.components::SubTitle" bold="false" italic="false" underline="false" color="0" fontSize="24" leading="0" textAlign="left" label="Pet Info:"/>
+    <Component width="219" height="168" x="358" y="477" enabled="true" visible="true" hidden="false" id="fbcf3VR1" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Name:      -----------.&#xD;&#xD;Contact no:-----------&#xD;&#xD;Address:   -----------&#xD;&#xD;Email id:  -----------"/>
+    <Component width="219" height="120" x="637" y="477" enabled="true" visible="true" hidden="false" id="fbc5D4Rm" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Name:      -----------.&#xD;&#xD;Breed:     -----------&#xD;&#xD;Height:    -----------&#xD;"/>
+    <Component width="277" height="40" x="110" y="704" enabled="true" visible="true" hidden="false" id="fbc73KXN" clasz="com.flairbuilder.components::Title" bold="true" italic="false" underline="false" color="0" fontSize="32" leading="0" fontFamily="Times New Roman" textAlign="left" label="My pet is missing"/>
+    <Component width="200" height="31" x="113" y="755" enabled="true" visible="true" hidden="false" id="fbctyfE2" clasz="com.flairbuilder.components::SubTitle" bold="false" italic="false" underline="false" color="0" fontSize="24" leading="0" textAlign="left" label="Pet information:"/>
+    <Component width="302" height="31" x="547" y="755" enabled="true" visible="true" hidden="false" id="fbcARA85" clasz="com.flairbuilder.components::SubTitle" bold="false" italic="false" underline="false" color="0" fontSize="24" leading="0" textAlign="left" label="Contact person information:"/>
+    <Component width="100" height="24" x="118" y="806" enabled="true" visible="true" hidden="false" id="fbc1V92X" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Name :"/>
+    <Component width="100" height="24" x="118" y="845" enabled="true" visible="true" hidden="false" id="fbc6O0h4" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Breed :"/>
+    <Component width="100" height="24" x="118" y="890" enabled="true" visible="true" hidden="false" id="fbc681V2" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Height :"/>
+    <Component width="100" height="24" x="216" y="810" enabled="true" visible="true" hidden="false" id="fbcj4J4x" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="216" y="890" enabled="true" visible="true" hidden="false" id="fbc6iP5O" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="216" y="849" enabled="true" visible="true" hidden="false" id="fbc089i5" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="547" y="810" enabled="true" visible="true" hidden="false" id="fbcXii6x" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Name :"/>
+    <Component width="100" height="24" x="545" y="850" enabled="true" visible="true" hidden="false" id="fbcXiA5S" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Contact No:"/>
+    <Component width="100" height="24" x="545" y="883" enabled="true" visible="true" hidden="false" id="fbcn493R" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Address :"/>
+    <Component width="100" height="24" x="545" y="924" enabled="true" visible="true" hidden="false" id="fbcJV4hy" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Email :"/>
+    <Component width="100" height="24" x="668" y="810" enabled="true" visible="true" hidden="false" id="fbcU9oXX" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="668" y="849" enabled="true" visible="true" hidden="false" id="fbc43z56" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="668" y="890" enabled="true" visible="true" hidden="false" id="fbcJz33e" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="668" y="929" enabled="true" visible="true" hidden="false" id="fbc96u2M" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="58" x="216" y="924" enabled="true" visible="true" hidden="false" id="fbcf5FfR" clasz="com.flairbuilder.components::Image" borderColor="0" borderThickness="1"/>
+    <Component width="100" height="24" x="118" y="941" enabled="true" visible="true" hidden="false" id="fbcFS9UL" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Photo :"/>
+    <Component width="68" height="24" x="326" y="937" enabled="true" visible="true" hidden="false" id="fbc3d2o7" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Upload" style="horizontalButton" direction="horizontal"/>
+    <Component width="68" height="34" x="437" y="958" enabled="true" visible="true" hidden="false" id="fbcvI43u" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="18" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="POST" style="horizontalButton" direction="horizontal"/>
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="960" height="1000" enabled="true" visible="true" hidden="false" id="#pg_1X5V9" clasz="com.flairbuilder.project::Page" name="Missing pet 2" color="255" backgroundColor="16777215">
+    <Component width="961" height="1061" x="3" y="-1" enabled="true" visible="true" hidden="false" id="fbcTcab8" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="2" label=""/>
+    <Component width="11" height="64" x="432" y="4" enabled="true" visible="true" hidden="false" id="fbcAA598" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="11" height="64" x="540" y="6" enabled="true" visible="true" hidden="false" id="fbc8D697" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="53" height="38" x="438" y="68" enabled="true" visible="true" hidden="false" id="fbc9222X" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="54" height="38" x="491" y="68" enabled="true" visible="true" hidden="false" id="fbcNPM74" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="rightLine" direction="-1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="48" height="19" x="468" y="39" enabled="true" visible="true" hidden="false" id="fbc72t74" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" fontFamily="Times New Roman" textAlign="left" label="LOGO&#xD;"/>
+    <Component width="109" height="53" x="36" y="70" enabled="true" visible="true" hidden="false" id="fbcT3M7a" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="About" style="verticalButton" direction="vertical"/>
+    <Component width="436" height="11" x="3" y="30" enabled="true" visible="true" hidden="false" id="fbc557fu" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="109" height="53" x="236" y="70" enabled="true" visible="true" hidden="false" id="fbcNt9EB" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="FAQ" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="139" height="53" x="586" y="70" enabled="true" visible="true" hidden="false" id="fbcH37HS" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Missing Pet" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:EnableDisableComponents" trigger="flair:mouseClick">
+          <action id="flair:EnableDisableComponents" targets="fbc454Vs" type="hide"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="139" height="53" x="784" y="70" enabled="true" visible="true" hidden="false" id="fbcyl2z3" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Contact us" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:EnableDisableComponents" trigger="flair:mouseClick">
+          <action id="flair:EnableDisableComponents" targets="fbc454Vs" type="hide"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="200" height="19" x="754" y="10" enabled="true" visible="true" hidden="false" id="fbcS2jcy" clasz="com.flairbuilder.components::BulletList" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="">
+      <data encoded="true">Feedback</data>
+    </Component>
+    <Component width="887" height="830" x="40" y="164" enabled="true" visible="true" hidden="false" id="fbcrnu7n" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="887" height="206" x="40" y="164" enabled="true" visible="true" hidden="false" id="fbc18688" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="673" height="85" x="137" y="211" enabled="true" visible="true" hidden="false" id="fbcfBAJ3" clasz="com.flairbuilder.components::Title" bold="false" italic="false" underline="false" color="0" fontSize="72" leading="0" textAlign="left" label="M I S S I N G - P E T"/>
+    <Component width="887" height="10" x="40" y="680" enabled="true" visible="true" hidden="false" id="fbc8Y1z6" clasz="com.flairbuilder.components::SplitterVertical" borderColor="0"/>
+    <Component name="Unnamed" width="45" height="24" x="51" y="518" enabled="true" visible="true" hidden="false" id="fbcsn286" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="12" label="{flair:LeftFillTriangle}" style="horizontalButton" direction="horizontal">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="#pg_y78m0" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="51" height="24" x="866" y="518" enabled="true" visible="true" hidden="false" id="fbc47ERt" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="12" label=" {flair:RightFillTriangle}" style="horizontalButton" direction="horizontal">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="pgTR74N" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="417" height="11" x="547" y="33" enabled="true" visible="true" hidden="false" id="fbcB598j" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="186" height="154" x="122" y="474" enabled="true" visible="true" hidden="false" id="fbcO6S37" clasz="com.flairbuilder.components::Image" borderColor="0" borderThickness="1"/>
+    <Component width="200" height="19" x="122" y="388" enabled="true" visible="true" hidden="false" id="fbc7HVnT" clasz="com.flairbuilder.components::Title" bold="true" italic="false" underline="false" color="0" fontSize="32" leading="0" fontFamily="Times New Roman" textAlign="left" label=""/>
+    <Component width="103" height="40" x="128" y="387" enabled="true" visible="true" hidden="false" id="fbc72810" clasz="com.flairbuilder.components::Title" bold="false" italic="false" underline="false" color="0" fontSize="32" leading="0" textAlign="left" label="Pet 3"/>
+    <Component width="186" height="31" x="122" y="437" enabled="true" visible="true" hidden="false" id="fbcyh5sf" clasz="com.flairbuilder.components::SubTitle" bold="false" italic="false" underline="false" color="0" fontSize="24" leading="0" textAlign="left" label="Photo:"/>
+    <Component width="224" height="31" x="355" y="437" enabled="true" visible="true" hidden="false" id="fbcdbFj2" clasz="com.flairbuilder.components::SubTitle" bold="false" italic="false" underline="false" color="0" fontSize="24" leading="0" textAlign="left" label="Contact Person info:"/>
+    <Component width="200" height="31" x="637" y="433" enabled="true" visible="true" hidden="false" id="fbcK3H3l" clasz="com.flairbuilder.components::SubTitle" bold="false" italic="false" underline="false" color="0" fontSize="24" leading="0" textAlign="left" label="Pet Info:"/>
+    <Component width="219" height="168" x="358" y="477" enabled="true" visible="true" hidden="false" id="fbc242r5" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Name:      -----------.&#xD;&#xD;Contact no:-----------&#xD;&#xD;Address:   -----------&#xD;&#xD;Email id:  -----------"/>
+    <Component width="219" height="120" x="637" y="477" enabled="true" visible="true" hidden="false" id="fbc38pm5" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Name:      -----------.&#xD;&#xD;Breed:     -----------&#xD;&#xD;Height:    -----------&#xD;"/>
+    <Component width="277" height="40" x="110" y="704" enabled="true" visible="true" hidden="false" id="fbc7B05P" clasz="com.flairbuilder.components::Title" bold="true" italic="false" underline="false" color="0" fontSize="32" leading="0" fontFamily="Times New Roman" textAlign="left" label="My pet is missing"/>
+    <Component width="200" height="31" x="113" y="755" enabled="true" visible="true" hidden="false" id="fbc9MBDy" clasz="com.flairbuilder.components::SubTitle" bold="false" italic="false" underline="false" color="0" fontSize="24" leading="0" textAlign="left" label="Pet information:"/>
+    <Component width="302" height="31" x="547" y="755" enabled="true" visible="true" hidden="false" id="fbcsS4h1" clasz="com.flairbuilder.components::SubTitle" bold="false" italic="false" underline="false" color="0" fontSize="24" leading="0" textAlign="left" label="Contact person information:"/>
+    <Component width="100" height="24" x="118" y="806" enabled="true" visible="true" hidden="false" id="fbcO4HE8" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Name :"/>
+    <Component width="100" height="24" x="118" y="845" enabled="true" visible="true" hidden="false" id="fbcsk1bs" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Breed :"/>
+    <Component width="100" height="24" x="118" y="890" enabled="true" visible="true" hidden="false" id="fbc3l8A1" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Height :"/>
+    <Component width="100" height="24" x="216" y="810" enabled="true" visible="true" hidden="false" id="fbc2RvPe" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="216" y="890" enabled="true" visible="true" hidden="false" id="fbcEjH56" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="216" y="849" enabled="true" visible="true" hidden="false" id="fbc587YR" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="547" y="810" enabled="true" visible="true" hidden="false" id="fbc5RPom" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Name :"/>
+    <Component width="100" height="24" x="545" y="850" enabled="true" visible="true" hidden="false" id="fbcc99kK" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Contact No:"/>
+    <Component width="100" height="24" x="545" y="883" enabled="true" visible="true" hidden="false" id="fbcDs62k" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Address :"/>
+    <Component width="100" height="24" x="545" y="924" enabled="true" visible="true" hidden="false" id="fbc72JXP" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Email :"/>
+    <Component width="100" height="24" x="668" y="810" enabled="true" visible="true" hidden="false" id="fbc259Ct" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="668" y="849" enabled="true" visible="true" hidden="false" id="fbcC457O" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="668" y="890" enabled="true" visible="true" hidden="false" id="fbco3d3e" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="24" x="668" y="929" enabled="true" visible="true" hidden="false" id="fbcz0mB5" clasz="com.flairbuilder.components::TextInput" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="left" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="100" height="58" x="216" y="924" enabled="true" visible="true" hidden="false" id="fbc3x9D6" clasz="com.flairbuilder.components::Image" borderColor="0" borderThickness="1"/>
+    <Component width="100" height="24" x="118" y="941" enabled="true" visible="true" hidden="false" id="fbcpnS9s" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Photo :"/>
+    <Component width="68" height="24" x="326" y="937" enabled="true" visible="true" hidden="false" id="fbc46277" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="12" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Upload" style="horizontalButton" direction="horizontal"/>
+    <Component width="68" height="34" x="437" y="958" enabled="true" visible="true" hidden="false" id="fbc3771o" clasz="com.flairbuilder.components::Button" bold="false" italic="false" underline="false" color="0" fontSize="18" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="POST" style="horizontalButton" direction="horizontal"/>
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Page width="960" height="1000" enabled="true" visible="true" hidden="false" id="pge2hL7" clasz="com.flairbuilder.project::Page" name="Contact" color="255" backgroundColor="16777215">
+    <behaviors>
+      <behavior action="flair:EnableDisableComponents" trigger="flair:pageOnLoad">
+        <action id="flair:EnableDisableComponents" targets="fbc7SX94" type="hide"/>
+      </behavior>
+    </behaviors>
+    <Component width="958" height="1061" x="3" y="4" enabled="true" visible="true" hidden="false" id="fbcP39n6" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="2" label=""/>
+    <Component width="11" height="64" x="439" y="8" enabled="true" visible="true" hidden="false" id="fbc49454" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="11" height="64" x="547" y="10" enabled="true" visible="true" hidden="false" id="fbcN4T3y" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="53" height="38" x="445" y="72" enabled="true" visible="true" hidden="false" id="fbci9Ai0" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="54" height="38" x="498" y="72" enabled="true" visible="true" hidden="false" id="fbc9A4h4" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="rightLine" direction="-1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="48" height="19" x="475" y="43" enabled="true" visible="true" hidden="false" id="fbc8rt15" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" fontFamily="Times New Roman" textAlign="left" label="LOGO&#xD;"/>
+    <Component width="109" height="53" x="43" y="74" enabled="true" visible="true" hidden="false" id="fbcJZL66" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="About" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="#pg_757XD" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="443" height="11" x="3" y="34" enabled="true" visible="true" hidden="false" id="fbc8Hklm" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="109" height="53" x="243" y="74" enabled="true" visible="true" hidden="false" id="fbcFMlcD" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="FAQ" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="139" height="53" x="593" y="74" enabled="true" visible="true" hidden="false" id="fbcnThis" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Missing Pet" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:GoToPageAction" trigger="flair:mouseClick">
+          <action id="flair:GoToPageAction" pageID="pgTR74N" gotoOption="specificPage" variableName="null" variableValue="null"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="139" height="53" x="791" y="74" enabled="true" visible="true" hidden="false" id="fbc7SX94" clasz="com.flairbuilder.components::Button" bold="true" italic="false" underline="false" color="0" fontSize="24" fontFamily="Times New Roman" textAlign="center" backgroundColor="15658734" borderColor="10066329" borderThickness="1" borderStyle="solid" cornerRadius="5" label="Contact us" style="verticalButton" direction="vertical">
+      <behaviors>
+        <behavior action="flair:EnableDisableComponents" trigger="flair:mouseClick">
+          <action id="flair:EnableDisableComponents" targets="fbc454Vs" type="hide"/>
+        </behavior>
+      </behaviors>
+    </Component>
+    <Component width="200" height="19" x="761" y="14" enabled="true" visible="true" hidden="false" id="fbcfl7P2" clasz="com.flairbuilder.components::BulletList" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="left" label="">
+      <data encoded="true">Feedback</data>
+    </Component>
+    <Component width="887" height="837" x="47" y="159" enabled="true" visible="true" hidden="false" id="fbc62749" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="887" height="206" x="47" y="159" enabled="true" visible="true" hidden="false" id="fbcsa3NH" clasz="com.flairbuilder.components::Rectangle" bold="false" italic="false" underline="false" color="0" fontSize="12" leading="0" textAlign="center" backgroundColor="16777215" backgroundAlpha="1" borderColor="0" borderThickness="1" borderStyle="solid" cornerRadius="0" label=""/>
+    <Component width="500" height="85" x="232" y="215" enabled="true" visible="true" hidden="false" id="fbcrJ2zz" clasz="com.flairbuilder.components::Title" bold="false" italic="false" underline="false" color="0" fontSize="72" leading="0" textAlign="left" label="C O N T A C T"/>
+    <Component width="417" height="11" x="544" y="37" enabled="true" visible="true" hidden="false" id="fbc9dL7V" clasz="com.flairbuilder.components.shapes::Line" borderColor="0" borderThickness="1" borderStyle="solid" style="leftLine" direction="1" curve="0" arrowStart="false" arrowEnd="false"/>
+    <Component width="200" height="85" x="129" y="392" enabled="true" visible="true" hidden="false" id="fbcU8n4J" clasz="com.flairbuilder.components::Title" bold="true" italic="false" underline="false" color="0" fontSize="32" leading="0" fontFamily="Times New Roman" textAlign="left" label=""/>
+    <Component width="300" height="88" x="97" y="407" enabled="true" visible="true" hidden="false" id="fbc991u6" clasz="com.flairbuilder.components::Text" bold="true" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="Got something on your mind&#xD;you want to talk about?-------------------------------------------------------------------------------------------.">
+      <text>Got something on your mindyou want to talk about?-------------------------------------------------------------------------------------------.</text>
+    </Component>
+    <Component width="300" height="116" x="562" y="402" enabled="true" visible="true" hidden="false" id="fbcv3o8u" clasz="com.flairbuilder.components::Text" bold="false" italic="false" underline="false" color="0" fontSize="14" leading="0" fontFamily="Times New Roman" textAlign="left" label="Our Goal is to provide help to any Injured animal through our users(who want to contribute ti this nobel cause).--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.&#xD;&#xD;">
+      <text>Our Goal is to provide help to any Injured animal through our users(who want to contribute ti this nobel cause).--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.</text>
+    </Component>
+    <Component width="887" height="10" x="47" y="536" enabled="true" visible="true" hidden="false" id="fbc3hp79" clasz="com.flairbuilder.components::SplitterVertical" borderColor="0"/>
+    <Component width="233" height="40" x="97" y="564" enabled="true" visible="true" hidden="false" id="fbcz0574" clasz="com.flairbuilder.components::Title" bold="false" italic="false" underline="false" color="0" fontSize="32" leading="0" textAlign="left" label="GET IN TOUCH"/>
+    <Component width="241" height="48" x="97" y="627" enabled="true" visible="true" hidden="false" id="fbc7r4K4" clasz="com.flairbuilder.components::Label" bold="false" italic="false" underline="false" color="0" fontSize="18" leading="0" fontFamily="Times New Roman" textAlign="left" label="*Email Id:* &#xD;        jeev-uthan@gmail.com"/>
+    <CustomImages/>
+    <Annotations/>
+    <Layers/>
+  </Page>
+  <Variables>
+    <Variable name="variable1" value="default_value"/>
+  </Variables>
+  <CustomComponents embedded="false" list=""/>
+  <Structure name="Untitled project" siteMap="1" id="">
+    <Page name="About" id="#pg_757XD" siteMap="1"/>
+    <Page name="Missing pet" id="pgTR74N" siteMap="1"/>
+    <Page name="Contact" id="pge2hL7" siteMap="1"/>
+    <Page name="Missing pet 2" id="#pg_1X5V9" siteMap="1"/>
+    <Page name="Missing pet 1" id="#pg_y78m0" siteMap="1"/>
+    <Page name="About copy0" id="#pg_814tl" siteMap="1"/>
+    <Page name="About copy1" id="#pg_96603" siteMap="1"/>
+  </Structure>
+</Project>
